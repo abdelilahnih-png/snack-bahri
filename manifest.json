@@ -1,22 +1,50 @@
 {
-  "name": "Sel Marin",
+  "name": "Sel Marin — Casablanca",
   "short_name": "Sel Marin",
   "description": "Poissons frais, grillades et jus pressés minute, à deux pas de la mer.",
-  "start_url": "./snack_bahri.html",
+  "start_url": "./snack_bahri_fixed.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#F3ECDD",
   "theme_color": "#12201C",
   "orientation": "portrait",
+  "lang": "fr",
+  "categories": ["food", "lifestyle"],
   "icons": [
     {
       "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='38' fill='%2312201C'/%3E%3Ctext x='96' y='128' font-size='105' text-anchor='middle'%3E%F0%9F%90%9F%3C/text%3E%3C/svg%3E",
       "sizes": "192x192",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     },
     {
       "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%2312201C'/%3E%3Ctext x='256' y='340' font-size='280' text-anchor='middle'%3E%F0%9F%90%9F%3C/text%3E%3C/svg%3E",
       "sizes": "512x512",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Réserver une table",
+      "short_name": "Réserver",
+      "description": "Réserver une table chez Sel Marin",
+      "url": "./snack_bahri_fixed.html#reserve",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
+    },
+    {
+      "name": "Commander",
+      "short_name": "Commander",
+      "description": "Passer une commande",
+      "url": "./snack_bahri_fixed.html#order",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%BD%EF%B8%8F%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
+    },
+    {
+      "name": "Administration",
+      "short_name": "Admin",
+      "description": "Accès panneau admin",
+      "url": "./snack_bahri_fixed.html#admin",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A7%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
     }
   ]
 }
